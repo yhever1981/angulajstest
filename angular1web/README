@@ -1,0 +1,25 @@
+sublime: code edit
+webstorm:<jetspam> code edit
+
+chrome - :batarang debug angular js.
+
+mysysgit: code repository.
+tortoisegit: code repository
+nodejs:  package management
+grunt:   code merge and mix tool
+grunt watch:
+bower:   package manager for the web
+
+http server:
+
+karma: unit test ; container
+jasmine: same with java JUnit
+protractor: angular unit test
+
+
+npm install angular
+npm install boostrap
+npm install bower
+npm install grunt
+npm install karma
+npm install http-server
