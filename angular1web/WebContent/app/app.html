@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+	rel="stylesheet">
+<script src="../node_modules/angular/angular.min.js"></script>
+<script src="../node_modules/angular-route/angular-route.min.js"></script>
+</head>
+<body>
+	<div ng-app="testapp" id="contianer">
+		<div id="header" style="background-color: #FFA500;">
+			<h2>AnjularJs routing</h2>
+		</div>
+		<div id="menu"
+			style="background-color: #FFD700; height: 200px; float: left;">
+			<ul>
+				<li><a href="#!/home">Home</a></li>
+				<li><a href="#!/expression">expression</a></li>
+				<li><a href="#!/command">command</a></li>
+				<li><a href="#!/other1">other1</a></li>
+				<li><a href="#!/other2">other2</a></li>
+			</ul>
+			<br>
+		</div>
+		<div ng-view id="content"
+			style="background-color: #EEEEEE; height: 200px; float: left;">
+			内容在这里</div>
+		<div id="footer"
+			style="background-color: #FFA500; clear: both; text-align: center;">
+			copy right reserved by calvin.com</div>
+	</div>
+	<script>
+		
+	</script>
+	<script type="text/javascript" src="../controller/app.js"></script>
+	<script type="text/javascript" src="../controller/service.js"></script>
+	<script type="text/javascript" src="../controller/homecontroller.js"></script>
+	<script type="text/javascript"
+		src="../controller/expressioncontroller.js"></script>
+	<script type="text/javascript" src="../controller/othercontroller.js"></script>
+</body>
+</html>
