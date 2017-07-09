@@ -1,13 +1,15 @@
+
+
 sublime: code edit
 webstorm:<jetspam> code edit
 
-chrome - :batarang debug angular js.
+chrome plugin - batarang: debug angular js.
 
-mysysgit: code repository.
-tortoisegit: code repository
+githut - mysysgit: code repository.
+tortoise - git: git client
 nodejs:  package management
 grunt:   code merge and mix tool
-grunt watch:
+grunt watch: monitor file update
 bower:   package manager for the web
 
 http server:

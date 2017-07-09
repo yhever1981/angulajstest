@@ -14,12 +14,12 @@ app.controller('myCtrl',  function($scope,$http)
 	
 	 $http({
 	        method: 'GET',
-	        url: 'http://localhost:8080/greeting'
+	        url: 'http://localhost:9000/greeting'
 	    }).then(
 	    		function successCallback(response) {
 	    			$scope.greetinglist = response.data;
 	        }, function errorCallback(response) {
-	            alert("failed")
+	            console.log("failed")
 	    });
 	  
 });
