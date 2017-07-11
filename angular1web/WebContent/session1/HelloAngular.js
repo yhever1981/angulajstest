@@ -3,7 +3,7 @@ var app = angular.module('myApp', []);
 app.controller('myCtrl',  function($scope,$http)
 {
 	$scope.greeting ={
-			text: 'Hello'
+			text: 'Hello Tammy,'
 	}
 	
 	$scope.name= "John";
